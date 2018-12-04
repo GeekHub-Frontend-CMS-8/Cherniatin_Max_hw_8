@@ -1,0 +1,27 @@
+.awe-client {
+  background-color: #fafafa;
+  padding-top: 100px;
+  &__title-block {
+    display: flex;
+    text-align: center;
+
+    h2 {
+      color: #222222;
+      font-family: "Brandon Grotesque";
+      font-size: 60px;
+      font-weight: 300;
+      line-height: 75px;
+      letter-spacing: -1.5px;
+      span {
+        font-weight: 700;
+        letter-spacing: -1.5px;
+      }
+    }
+    p {
+      color: #777777;
+      font-family: "Brandon Grotesque";
+      font-size: 22px;
+      font-weight: 400;
+    }
+  }
+}

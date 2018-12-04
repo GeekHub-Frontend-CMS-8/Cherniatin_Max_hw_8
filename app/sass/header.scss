@@ -1,0 +1,75 @@
+.header {
+  background: url("../img/home-img.png") no-repeat center/cover;
+  height: 620px;
+  padding-bottom: 120px;
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 35px 0 15px;
+  }
+  &__logo {
+    &-img {
+      vertical-align: middle;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  &__nav--list {
+    display: flex;
+    flex-direction: row;
+  }
+  &__nav--list-item {
+    margin: 0 15px;
+
+  }
+  &__nav--list-link {
+    text-decoration: none;
+    color: $genera-color;
+    font:400 16px/67px $font-asap;
+    line-height: 67px;
+    &:hover {
+      border-bottom: 2px solid $genera-color;
+      transition: 0.3s;
+    }
+  }
+  .home-title {
+    color: $genera-color;
+    font-family: "Brandon Grotesque";
+    font-size: 32px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    margin-top: 161px;
+  }
+  .home-title-1 {
+    color: $genera-color;
+    font-family: "Brandon Grotesque";
+    font-size: 66px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .home-link {
+    margin: 80px auto ;
+    border: 2px solid #ffffff;
+    width: 100%;
+    max-width: 240px;
+  }
+  .home-text {
+    padding: 23px 60px;
+    display: inline-block;
+    text-decoration: none;
+    color: $genera-color;
+    font-family: "Brandon Grotesque";
+    font-size: 23px;
+    font-weight: 700;
+
+  }
+  .home-link:hover {
+    background-color: #15a4fa;
+  }
+}

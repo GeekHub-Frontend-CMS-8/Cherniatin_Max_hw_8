@@ -1,0 +1,38 @@
+.web-dev {
+  padding-top: 100px;
+  padding-bottom: 96px;
+  &__text-block {
+    margin: 0 15px;
+    max-width: 555px;
+    display: inline-block;
+    h2 {
+      margin-bottom: 35px;
+      color: #222222;
+      font-family: "Brandon Grotesque";
+      font-size: 60px;
+      font-weight: 300;
+      line-height: 75px;
+      letter-spacing: -1.5px;
+        span {
+          font-weight: 700;
+          letter-spacing: -1.5px;
+        }
+    }
+    p {
+      color: #777777;
+      font-family: "Brandon Grotesque";
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 40px;
+    }
+  }
+  &__img-block {
+    display: inline-block;
+    vertical-align: super;
+    margin-left: 74px;
+    img {
+      width: 100%;
+      max-width: 240px;
+    }
+  }
+}
