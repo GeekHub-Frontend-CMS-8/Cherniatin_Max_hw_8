@@ -1,0 +1,90 @@
+.amazing {
+  padding-top: 100px;
+  background-color: #111111;
+  text-align: center;
+  padding-bottom: 98px;
+  &__text-block {
+    margin-bottom: 80px;
+    h2 {
+      color: #d4d4d4;
+      font: 200 60px/75px $font-asap;
+      letter-spacing: -1.5px;
+      margin-bottom: 3px;
+      span {
+        font-weight: 700;
+        letter-spacing: -1.5px;
+      }
+    }
+    p {
+      color: #777777;
+      font: 400 22px $font-asap;
+    }
+  }
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  &__container-img {
+    max-width: 220px;
+  }
+  &__container-item {
+    margin-top: 80px;
+
+  }
+  &__container-item-title {
+    margin-top: 26px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  &__container-item-text {
+    margin-top: 13px;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  &__container-item-social {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 11px
+  }
+  &__container-item-menu {
+    padding: 12px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+
+  }
+  &__container-item-menu:hover {
+    color: #000;
+    background-color: #ffffff;
+    transition: 0.3s ease;
+  }
+  &__text {
+    margin: 49px auto 0;
+    max-width: 600px;
+    color: #ebebeb;
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+.twitter,
+.facebook,
+.pinterest,
+.google {
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  padding: 12px 10px;
+}
+
+.twitter:hover{
+  background-color: #d4d4d4;
+}
+.facebook:hover {
+  background-color: #d4d4d4;
+}
+.pinterest:hover{
+  background-color: #d4d4d4;
+}
+.google:hover {
+  background-color: #d4d4d4;
+}

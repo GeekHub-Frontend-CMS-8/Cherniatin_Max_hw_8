@@ -2,7 +2,8 @@
   background: url("../img/home-img.png") no-repeat center/cover;
   height: 620px;
   padding-bottom: 120px;
-  &__flex {
+
+  &__container {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -26,50 +27,93 @@
   }
   &__nav--list-link {
     text-decoration: none;
-    color: $genera-color;
+    color: $general-color;
     font:400 16px/67px $font-asap;
     line-height: 67px;
     &:hover {
-      border-bottom: 2px solid $genera-color;
+      border-bottom: 2px solid $general-color;
       transition: 0.3s;
+    }
+    @media (max-width: 760px) {
+      display: none;
+    }
+  }
+
+  &__burger {
+    display: none;
+    margin-right: 4%;
+    font-size: 30px;
+    @media (max-width: 760px) {
+      display: inline-block;
     }
   }
   .home-title {
-    color: $genera-color;
-    font-family: "Brandon Grotesque";
+    color: $general-color;
+    font-family: $font-asap;
     font-size: 32px;
     font-weight: 300;
     display: flex;
     justify-content: center;
     margin-top: 161px;
+    margin-bottom: 50px;
+
+    @media (max-width: 900px) {
+      font-size: 23px;
+    }
+
+    @media (max-width: 540px) {
+      font-size: 17px;
+    }
   }
-  .home-title-1 {
-    color: $genera-color;
-    font-family: "Brandon Grotesque";
-    font-size: 66px;
-    font-weight: 700;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-  }
-  .home-link {
-    margin: 80px auto ;
-    border: 2px solid #ffffff;
-    width: 100%;
-    max-width: 240px;
-  }
-  .home-text {
-    padding: 23px 60px;
-    display: inline-block;
-    text-decoration: none;
-    color: $genera-color;
-    font-family: "Brandon Grotesque";
-    font-size: 23px;
-    font-weight: 700;
+    .home-title-description {
+      color: $general-color;
+      font: 700 66px $font-asap;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 100px;
+      @media screen and  (max-width: 900px) {
+        font-size: 50px;
+      }
+
+      @media (max-width: 540px) {
+        font-size: 35px;
+        margin-bottom: 90px;
+      }
+    }
+    .home-link {
+      display: flex;
+      justify-content: center;
+
+      @media (max-width: 900px) {
+        font-size: 17px;
+      }
+
+      @media (max-width: 540px) {
+        font-size: 14px;
+      }
+    }
+    .home-text {
+      font: 700 23px $font-asap;
+      border: 2px solid #ffffff;
+      padding: 25px 69px;
+      display: inline-block;
+      box-sizing: border-box;
+      color: #ffffff;
+      text-decoration: none;
+      &:hover {
+        background-color: #15a4fa;
+      }
+      @media (max-width: 900px) {
+        font-size: 17px;
+        text-align: center;
+      }
+
+      @media (max-width: 540px) {
+        font-size: 14px;
+        text-align: center;
+      }
+
+    }
 
   }
-  .home-link:hover {
-    background-color: #15a4fa;
-  }
-}

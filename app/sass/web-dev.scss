@@ -5,24 +5,27 @@
     margin: 0 15px;
     max-width: 555px;
     display: inline-block;
+    @media (max-width: 760px) {
+      width: 90%;
+    }
     h2 {
       margin-bottom: 35px;
       color: #222222;
-      font-family: "Brandon Grotesque";
-      font-size: 60px;
-      font-weight: 300;
-      line-height: 75px;
+      font: 300 55px/75px $font-asap;
       letter-spacing: -1.5px;
         span {
           font-weight: 700;
           letter-spacing: -1.5px;
         }
+      @media (max-width: 760px) {
+        text-align: center;
+        display: block;
+        font-size: 45px;
+      }
     }
     p {
       color: #777777;
-      font-family: "Brandon Grotesque";
-      font-size: 18px;
-      font-weight: 400;
+      font: 400 18px $font-asap;
       margin-bottom: 40px;
     }
   }
@@ -33,6 +36,11 @@
     img {
       width: 100%;
       max-width: 240px;
+      @media (max-width: 760px) {
+        display: block;
+        max-width: 200px;
+      }
     }
+
   }
 }
