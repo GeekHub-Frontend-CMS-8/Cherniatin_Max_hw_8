@@ -1,14 +1,16 @@
 .awe-client {
   background-color: #fafafa;
   &__title {
-    color: #222222;
+    color: $color-black;
     font: 300 60px/75px $font-asap;
     span {
       font: 700 60px/75px $font-asap;
     }
+
     @media (max-width: 760px) {
       font-size: 50px;
     }
+
     @media (max-width: 583px) {
       text-align: center;
       font-size: 40px;
@@ -16,8 +18,9 @@
   }
   &__subtitle {
     font: 400 22px $font-asap;
-    color: #777777;
+    color: $color-hex;
     margin-bottom: 45px;
+
     @media (max-width: 621px) {
       font-size: 15px;
     }
@@ -27,14 +30,17 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 35px;
+
     @media (max-width: 916px) {
       display: block;
     }
     &-photo {
       margin-bottom: 20px;
+
       @media (max-width: 961px) {
         width: 33%;
       }
+
       @media (max-width: 621px) {
         width: 42%;
       }
@@ -44,7 +50,8 @@
       padding: 35px 62px;
       border: 1px solid #e8e8e8;
       text-align: left;
-      background-color: #ffffff;
+      background-color: $color-white;
+
       @media (max-width: 621px) {
         padding: 25px;
       }
@@ -52,6 +59,7 @@
         font: 400 26px/28px $font-asap;
         color: $general-color;
         margin-bottom: 10px;
+
         @media (max-width: 621px) {
           font-size: 18px;
           line-height: 24px;
@@ -60,6 +68,7 @@
       &-author {
         color: #7690c5;
         font: 400 20px/36px $font-asap;
+
         @media (max-width: 621px) {
           font-size: 14px;
           line-height: 30px;

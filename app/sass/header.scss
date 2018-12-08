@@ -34,6 +34,7 @@
       border-bottom: 2px solid $general-color;
       transition: 0.3s;
     }
+
     @media (max-width: 760px) {
       display: none;
     }
@@ -43,6 +44,7 @@
     display: none;
     margin-right: 4%;
     font-size: 30px;
+
     @media (max-width: 760px) {
       display: inline-block;
     }
@@ -60,7 +62,6 @@
     @media (max-width: 900px) {
       font-size: 23px;
     }
-
     @media (max-width: 540px) {
       font-size: 17px;
     }
@@ -72,10 +73,10 @@
       display: flex;
       justify-content: center;
       margin-bottom: 100px;
+
       @media screen and  (max-width: 900px) {
         font-size: 50px;
       }
-
       @media (max-width: 540px) {
         font-size: 35px;
         margin-bottom: 90px;
@@ -88,18 +89,17 @@
       @media (max-width: 900px) {
         font-size: 17px;
       }
-
       @media (max-width: 540px) {
         font-size: 14px;
       }
     }
     .home-text {
       font: 700 23px $font-asap;
-      border: 2px solid #ffffff;
+      border: 2px solid $color-white;
       padding: 25px 69px;
       display: inline-block;
       box-sizing: border-box;
-      color: #ffffff;
+      color: $color-white;
       text-decoration: none;
       &:hover {
         background-color: #15a4fa;
@@ -108,7 +108,6 @@
         font-size: 17px;
         text-align: center;
       }
-
       @media (max-width: 540px) {
         font-size: 14px;
         text-align: center;
