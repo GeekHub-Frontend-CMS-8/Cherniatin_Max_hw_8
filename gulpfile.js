@@ -32,5 +32,6 @@ gulp.task("watch", [ 'sass', "html", 'img'], function () {
     });
     gulp.watch('app/sass/**/*.scss', ["sass"]);
     gulp.watch('app/**/*.html' , ['html']);
+    gulp.watch('src/fonts/**/*', ["fonts"]);
     gulp.watch('app/img/**/*', ["img"]);
 });
